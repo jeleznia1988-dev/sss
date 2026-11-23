@@ -1,0 +1,148 @@
+TIVIMATE / VIMU — СРАВНЕНИЕ НА ПЪРВИЯ И ВТОРИЯ ОПИТ
+Източник: logs.zip (tvplayer_compare.txt, audio_first/second.txt, session_first/second.txt)
+
+КРАТКО РЕЗЮМЕ
+- Първи опит: ViMu стартира и заявява Audio Focus. След 1.868 s TiviMate (ar.tvplayer.tv) също заявява Audio Focus. 113 ms по-късно Android изпраща AUDIOFOCUS_LOSS (-1) на ViMu; ViMu логва „AF Loss“. По-късно MediaSession на ViMu е state=2 (PAUSED).
+- Втори опит: ViMu заявява Audio Focus, но в записания интервал няма нова заявка от TiviMate. Логът показва PlaybackState state=3 (PLAYING) и нарастваща позиция.
+- Двата опита са с различни stream ID: първи a6dad63171e9bb59d91d38924dd62a51, втори bffd4cf00b566ab2d48b09c65a25a6ef. Това не е сравнение на един и същ канал.
+- В новия tvplayer_compare.txt няма EADDRINUSE/BindException.
+
+1) ПЪРВИ ОПИТ — ЗАМРЪЗВАЩ
+67: 11-23 15:00:29.500  3492 21215 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=http://185.205.208.22/... typ=video/* flg=0x10000000 cmp=net.gtvbox.videoplayer/.PlayerActivity} from uid 10170
+223: 11-23 15:00:30.241  3492 21215 D MediaSessionService: Media button session is changed to net.gtvbox.videoplayer/Vimu (userId=0)
+245: 11-23 15:00:30.311  8068  8068 W AudioManager: Use of stream types is deprecated for operations other than volume control
+246: 11-23 15:00:30.311  8068  8068 W AudioManager: See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+247: 11-23 15:00:30.314  3492 22878 I MediaFocusControl: requestAudioFocus() from uid/pid 10133/8068 clientId=android.media.AudioManager@f1fade3PlayerFragment{80a63e0 #1 id=0x7f0b0177 player_tag} callingPack=net.gtvbox.videoplayer req=1 flags=0x0 sdk=35
+262: 11-23 15:00:30.378  8068  8068 D GTVBoxProxyService: onCreated
+263: 11-23 15:00:30.378  8068  8068 D GTVBoxProxyService: onStarted
+289: 11-23 15:00:30.442  8068  8068 D PlayerFragment: Video surface created
+290: 11-23 15:00:30.442  8068  8068 D PlayerFragment: Play uri:http://185.205.208.22/ch/a6dad63171e9bb59d91d38924dd62a51
+291: 11-23 15:00:30.443  8068  8068 D PlayerFragment: Detecting media API support.
+292: 11-23 15:00:30.444  3731  5600 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for net.gtvbox.videoplayer
+293: 11-23 15:00:30.445  8068  8068 D MediaAPI: Using MediaEngine v.2
+294: 11-23 15:00:30.448  8068  8068 D ExoPlayer2Native: Setting Surface
+295: 11-23 15:00:30.467  3350  7928 V AmlogicVideoDecoderAwesome: stop:325 >
+349: 11-23 15:00:30.607  8068  8068 D PlayerFragment: Checking resume: a6dad63171e9bb59d91d38924dd62a51
+350: 11-23 15:00:30.608  8068  8068 D PlayerFragment: Resumes found:0 for a6dad63171e9bb59d91d38924dd62a51
+351: 11-23 15:00:30.614  8068  8068 D PlayerFragment: Audio/text indexes saved as: a6dad63171e9bb59d91d38924dd62a51
+352: 11-23 15:00:30.633  3279  3425 I gralloc : framebuffer hal alread move to hwcomposer
+353: 11-23 15:00:30.636  3292  3491 I gralloc : ddebug, pair (share_fd=89, user_hnd=a, ion_client=30)
+354: 11-23 15:00:30.649  8068  8114 E gralloc : ioctl c0044901 failed with code -1: Invalid argument
+355: 11-23 15:00:30.649  8068  8114 I gralloc : ddebug, pair (share_fd=74, user_hnd=1, ion_client=76)
+356: 11-23 15:00:30.695  8068  8068 I PlayerFragment: Ratio mode: -1
+357: 11-23 15:00:30.695  8068  8068 E ExoPlayer2Native: Check direct: http://185.205.208.22/ch/a6dad63171e9bb59d91d38924dd62a51
+358: 11-23 15:00:30.696  8068  8068 D ExoPlayer2Native: Opening direct url: http://185.205.208.22/ch/a6dad63171e9bb59d91d38924dd62a51
+359: 11-23 15:00:30.696  8068  8068 D ExoPlayer2Native: Prepare...
+360: 11-23 15:00:30.697  3492  3517 I ActivityManager: Displayed net.gtvbox.videoplayer/.PlayerActivity: +1s122ms
+345: 11-23 15:00:30.535  3492 22878 I MediaFocusControl: abandonAudioFocus() from uid/pid 10170/7564 clientId=android.media.AudioManager@bc835f0ᵮᵾ@c4e4769
+590: 11-23 15:00:32.182  3492  5018 I MediaFocusControl: requestAudioFocus() from uid/pid 10170/7564 clientId=android.media.AudioManager@bc835f0ᵮᵾ@7571e18 callingPack=ar.tvplayer.tv req=1 flags=0x1 sdk=34
+835: 11-23 15:00:32.295  8068  8068 D AudioManager: dispatching onAudioFocusChange(-1) to android.media.AudioManager@f1fade3PlayerFragment{80a63e0 #1 id=0x7f0b0177 player_tag}
+836: 11-23 15:00:32.295  8068  8068 I PlayerFragment: AF Loss
+850: 11-23 15:00:32.312  3492  5018 I MediaFocusControl: abandonAudioFocus() from uid/pid 10170/7564 clientId=android.media.AudioManager@bc835f0ᵮᵾ@7571e18
+1011: 11-23 15:00:34.424  8068  8068 I VimuMediaSession: Activate session.
+1012: 11-23 15:00:34.420  3492  3492 I system_server: type=1400 audit(0.0:5071): avc: denied { call } for scontext=u:r:system_server:s0 tcontext=u:r:zygote:s0 tclass=binder permissive=1
+1013: 11-23 15:00:34.420  3492  3492 I system_server: type=1400 audit(0.0:5072): avc: denied { transfer } for scontext=u:r:system_server:s0 tcontext=u:r:zygote:s0 tclass=binder permissive=1
+1014: 11-23 15:00:34.425  4210  4210 D NowPlayingListener: onActiveSessionsChanged() called with: controllers = [[android.media.session.MediaController@ded2753]], lastActiveMediaController = null, lastUpdatedAppPackageName = null
+1015: 11-23 15:00:34.427  3280 21476 W gralloc : omx buffer: descriptorInfo->width:1920 descriptorInfo->height:1080
+1016: 11-23 15:00:34.427  3624  3624 V NewAvrcpMediaPlayerList: onActiveSessionsChanged: number of controllers: 1
+1017: 11-23 15:00:34.428  4210  4210 D NowPlayingListener: MediaController {packageName = net.gtvbox.videoplayer, state = 2}
+1018: 11-23 15:00:34.430  4129  4417 I katniss_interactor_MediaSessionStateClearcutLoggerImpl: #maybeLogTvMediaSessionEvent, 3, net.gtvbox.videoplayer
+1019: 11-23 15:00:34.430  4129  4417 I katniss_interactor_MediaSessionStateClearcutLoggerImpl: The mediaSession's app package name does not match the cached package name.
+
+2) ВТОРИ ОПИТ — УСПЕШЕН
+1790: 11-23 15:01:32.272  3492  5018 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=http://185.205.208.22/... typ=video/* flg=0x10000000 cmp=net.gtvbox.videoplayer/.PlayerActivity} from uid 10170
+1816: 11-23 15:01:32.451  8068  8068 W AudioManager: Use of stream types is deprecated for operations other than volume control
+1817: 11-23 15:01:32.452  8068  8068 W AudioManager: See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+1818: 11-23 15:01:32.453  3492 21215 I MediaFocusControl: requestAudioFocus() from uid/pid 10133/8068 clientId=android.media.AudioManager@2825a4PlayerFragment{d682f0d #1 id=0x7f0b0177 player_tag} callingPack=net.gtvbox.videoplayer req=1 flags=0x0 sdk=35
+1825: 11-23 15:01:32.483  8068  8068 D GTVBoxProxyService: onStarted
+1831: 11-23 15:01:32.518  8068  8068 D PlayerFragment: Video surface created
+1832: 11-23 15:01:32.518  8068  8068 D PlayerFragment: Play uri:http://185.205.208.22/ch/bffd4cf00b566ab2d48b09c65a25a6ef
+1833: 11-23 15:01:32.518  8068  8068 D PlayerFragment: Detecting media API support.
+1834: 11-23 15:01:32.519  8068  8068 D MediaAPI: Using MediaEngine v.2
+1835: 11-23 15:01:32.519  8068  8068 D ExoPlayer2Native: Setting Surface
+1848: 11-23 15:01:32.663  8068  8068 E ExoPlayer2Native: Check direct: http://185.205.208.22/ch/bffd4cf00b566ab2d48b09c65a25a6ef
+1849: 11-23 15:01:32.663  8068  8068 D ExoPlayer2Native: Opening direct url: http://185.205.208.22/ch/bffd4cf00b566ab2d48b09c65a25a6ef
+1850: 11-23 15:01:32.664  8068  8068 D ExoPlayer2Native: Prepare...
+1851: 11-23 15:01:32.664  8068  8068 I PlayerFragment: Ratio mode: -1
+1860: 11-23 15:01:32.674  8068  8294 I FFMpegDataStream: No datastream for: http://185.205.208.22/ch/bffd4cf00b566ab2d48b09c65a25a6ef
+1861: 11-23 15:01:32.674  8068  8294 I GTVBox Native: MediaEngine open
+1862: 11-23 15:01:32.678  3492  3517 I ActivityManager: Displayed net.gtvbox.videoplayer/.PlayerActivity: +355ms
+2498: 11-23 15:01:39.982  4210  4210 D NowPlayingListener: updatePlayback() called with: state = [PlaybackState {state=3, position=15, buffered position=0, speed=1.0, updated=27865441, actions=3963, custom actions=[], active item id=-1, error=null}] and now playing listener: egn@5fcef08
+2537: 11-23 15:01:40.116  3624  3624 V NewAvrcpMediaPlayerWrapper: onPlaybackStateChanged(): net.gtvbox.videoplayer : PlaybackState {state=3, position=199, buffered position=0, speed=1.0, updated=27865580, actions=3963, custom actions=[], active item id=-1, error=null}
+2564: 11-23 15:01:40.378  3624  3624 V NewAvrcpMediaPlayerWrapper: onPlaybackStateChanged(): net.gtvbox.videoplayer : PlaybackState {state=3, position=434, buffered position=0, speed=1.0, updated=27865842, actions=3963, custom actions=[], active item id=-1, error=null}
+2583: 11-23 15:01:40.628  3624  3624 V NewAvrcpMediaPlayerWrapper: onPlaybackStateChanged(): net.gtvbox.videoplayer : PlaybackState {state=3, position=662, buffered position=0, speed=1.0, updated=27866094, actions=3963, custom actions=[], active item id=-1, error=null}
+
+3) DUMPSYS MEDIA_SESSION — СРАВНЕНИЕ
+[session_first.txt]
+  Media button session is net.gtvbox.videoplayer/Vimu (userId=0)
+  Sessions Stack - have 2 sessions:
+    Vimu net.gtvbox.videoplayer/Vimu (userId=0)
+      ownerPid=8068, ownerUid=10133, userId=0
+      package=net.gtvbox.videoplayer
+      active=true
+      state=PlaybackState {state=2, position=0, buffered position=0, speed=1.0, updated=27827401, actions=3965, custom actions=[], active item id=-1, error=null}
+      audioAttrs=AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_UNKNOWN flags=0x0 tags= bundle=null
+      ownerPid=4241, ownerUid=10139, userId=0
+      active=false
+      state=PlaybackState {state=0, position=6341, buffered position=0, speed=1.0, updated=16812784, actions=2368383, custom actions=[], active item id=-1, error=null}
+      audioAttrs=AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_UNKNOWN flags=0x0 tags= bundle=null
+
+[session_second.txt]
+  Media button session is net.gtvbox.videoplayer/Vimu (userId=0)
+  Sessions Stack - have 3 sessions:
+    Vimu net.gtvbox.videoplayer/Vimu (userId=0)
+      ownerPid=8068, ownerUid=10133, userId=0
+      package=net.gtvbox.videoplayer
+      active=true
+      state=PlaybackState {state=3, position=19143, buffered position=0, speed=1.0, updated=27884600, actions=3963, custom actions=[], active item id=-1, error=null}
+      audioAttrs=AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_UNKNOWN flags=0x0 tags= bundle=null
+    Vimu net.gtvbox.videoplayer/Vimu (userId=0)
+      ownerPid=8068, ownerUid=10133, userId=0
+      package=net.gtvbox.videoplayer
+      active=false
+      state=PlaybackState {state=2, position=0, buffered position=0, speed=1.0, updated=27845106, actions=3965, custom actions=[], active item id=-1, error=null}
+      audioAttrs=AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_UNKNOWN flags=0x0 tags= bundle=null
+      ownerPid=4241, ownerUid=10139, userId=0
+      active=false
+      state=PlaybackState {state=0, position=6341, buffered position=0, speed=1.0, updated=16812784, actions=2368383, custom actions=[], active item id=-1, error=null}
+      audioAttrs=AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_UNKNOWN flags=0x0 tags= bundle=null
+
+4) DUMPSYS AUDIO — СЪСТОЯНИЕ И ИСТОРИЯ
+[audio_first.txt] Dump time 15:00:52; current focus stack is empty in this snapshot. Relevant event history:
+11-23 15:00:30:314 requestAudioFocus() from uid/pid 10133/8068 clientId=android.media.AudioManager@f1fade3PlayerFragment{80a63e0 #1 id=0x7f0b0177 player_tag} callingPack=net.gtvbox.videoplayer req=1 flags=0x0 sdk=35
+11-23 15:00:30:535 abandonAudioFocus() from uid/pid 10170/7564 clientId=android.media.AudioManager@bc835f0ᵮᵾ@c4e4769
+11-23 15:00:32:182 requestAudioFocus() from uid/pid 10170/7564 clientId=android.media.AudioManager@bc835f0ᵮᵾ@7571e18 callingPack=ar.tvplayer.tv req=1 flags=0x1 sdk=34
+11-23 15:00:32:312 abandonAudioFocus() from uid/pid 10170/7564 clientId=android.media.AudioManager@bc835f0ᵮᵾ@7571e18
+11-23 15:00:30:310 player piid:1311 state:paused
+11-23 15:00:30:336 player piid:1311 state:stopped
+11-23 15:00:30:337 releasing player piid:1311
+11-23 15:00:32:375 new player piid:1319 uid/pid:10133/8068 type:android.media.AudioTrack attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_UNKNOWN flags=0x200 tags= bundle=null
+
+[audio_second.txt] Dump time 15:01:51; ViMu is the current focus owner:
+
+MediaFocusControl dump time: 15:01:51 ч.
+
+Audio Focus stack entries (last is top of stack):
+  source:android.os.BinderProxy@f9b661b -- pack: net.gtvbox.videoplayer -- client: android.media.AudioManager@2825a4PlayerFragment{d682f0d #1 id=0x7f0b0177 player_tag} -- gain: GAIN -- flags:  -- loss: none -- notified: true -- uid: 10133 -- attr: AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x0 tags= bundle=null -- sdk:35
+
+
+No external focus policy
+Relevant event history:
+11-23 15:00:30:314 requestAudioFocus() from uid/pid 10133/8068 clientId=android.media.AudioManager@f1fade3PlayerFragment{80a63e0 #1 id=0x7f0b0177 player_tag} callingPack=net.gtvbox.videoplayer req=1 flags=0x0 sdk=35
+11-23 15:00:30:535 abandonAudioFocus() from uid/pid 10170/7564 clientId=android.media.AudioManager@bc835f0ᵮᵾ@c4e4769
+11-23 15:00:32:182 requestAudioFocus() from uid/pid 10170/7564 clientId=android.media.AudioManager@bc835f0ᵮᵾ@7571e18 callingPack=ar.tvplayer.tv req=1 flags=0x1 sdk=34
+11-23 15:00:32:312 abandonAudioFocus() from uid/pid 10170/7564 clientId=android.media.AudioManager@bc835f0ᵮᵾ@7571e18
+11-23 15:01:32:453 requestAudioFocus() from uid/pid 10133/8068 clientId=android.media.AudioManager@2825a4PlayerFragment{d682f0d #1 id=0x7f0b0177 player_tag} callingPack=net.gtvbox.videoplayer req=1 flags=0x0 sdk=35
+11-23 15:00:30:310 player piid:1311 state:paused
+11-23 15:00:30:336 player piid:1311 state:stopped
+11-23 15:00:30:337 releasing player piid:1311
+11-23 15:00:32:375 new player piid:1319 uid/pid:10133/8068 type:android.media.AudioTrack attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_UNKNOWN flags=0x200 tags= bundle=null
+
+5) ЗАДАЧИ ЗА АНАЛИЗА
+1. Потвърди дали TiviMate заявката в 15:00:32.182 води до AUDIOFOCUS_LOSS към ViMu в 15:00:32.295 и защо TiviMate отново заявява фокуса след стартиране на външния плейър.
+2. Сравни първия и втория опит в кода: защо при втория няма нова заявка от ar.tvplayer.tv, а ViMu остава PLAYING?
+3. Проследи точния callback/state transition, който кара PlayerFragment да запише AF Loss и MediaSession да остане в PAUSED.
+4. Не прави извод за EADDRINUSE от този запис — такава грешка не се вижда в новия лог.
+5. Предложи минимална кръпка само за външен плейър, без да нарушаваш Audio Focus при вътрешно възпроизвеждане.
+
+Забележка: редовете са извадени от оригиналния tvplayer_compare.txt; числото в началото е редът в оригиналния файл.
