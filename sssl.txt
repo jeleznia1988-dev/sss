@@ -1,0 +1,459 @@
+11-24 14:18:34.833  6090  8790 E ChannelsProvider: Clip doesn't contain url. Skipping...
+11-24 14:18:34.856  6090  8790 I chatty  : uid=10073(org.smarttube.stable) androidx.work-4 identical 1 line
+11-24 14:18:34.856  6090  8790 E ChannelsProvider: Clip doesn't contain url. Skipping...
+11-24 14:18:35.019  6090  8790 D UpdateChannelsTask: Syncing channel: История
+11-24 14:18:35.029  6090  8790 D ChannelsProvider: visitChannels. Channel found: Channel{internal_provider_id=1 browsable=0 _id=67 system_channel_key=subs_channel_id display_name=Абонаменти}
+11-24 14:18:35.029  6090  8790 D ChannelsProvider: visitChannels. Channel found: Channel{internal_provider_id=3 browsable=1 _id=68 system_channel_key=recommended_channel_id display_name=Препоръчително}
+11-24 14:18:35.029  6090  8790 D ChannelsProvider: visitChannels. Channel found: Channel{internal_provider_id=2 browsable=0 _id=69 system_channel_key=history_channel_id display_name=История}
+11-24 14:18:35.029  6090  8790 D ChannelsProvider: Channel found. ProviderId: 2
+11-24 14:18:35.034  6090  8790 D ChannelsProvider: Oops: channel already published but not memorized by the app. Doing update instead... foundId: 69
+11-24 14:18:35.146  6090  8790 D ChannelsProvider: Channel updated История
+11-24 14:18:35.146  6090  8790 D YouTubeContentService: Getting history...
+11-24 14:18:35.358  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:18:35.401  6090  8790 D YouTubeContentService: Continue group null...
+11-24 14:18:35.644  6090  8790 I chatty  : uid=10073(org.smarttube.stable) androidx.work-4 identical 1 line
+11-24 14:18:35.910  6090  8790 D YouTubeContentService: Continue group null...
+11-24 14:18:36.538  6090  6139 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=f930f8c9-68d5-41e3-8d3a-91d0e6b715a4, tags={ com.liskovsoft.leanbackassistant.channels.UpdateChannelsWorker, Update channels } ]
+11-24 14:18:38.118  8862  8862 D WM-DelayedWorkTracker: Scheduling work cea07e61-ab51-4116-a0f0-137e0166ac04
+11-24 14:18:38.122  8862  8862 D WM-GreedyScheduler: Starting tracking for cea07e61-ab51-4116-a0f0-137e0166ac04
+11-24 14:18:38.132  8862  8927 D WM-WorkConstraintsTrack: NetworkRequestConstraintController register callback
+11-24 14:18:38.138  8862  8965 D WM-WorkConstraintsTrack: NetworkRequestConstraintController onCapabilitiesChanged callback
+11-24 14:18:38.141  8862  8936 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=cea07e61-ab51-4116-a0f0-137e0166ac04, generation=0)
+11-24 14:18:38.144  8862  8862 D WM-SystemJobService: onStartJob for WorkGenerationalId(workSpecId=cea07e61-ab51-4116-a0f0-137e0166ac04, generation=0)
+11-24 14:18:38.148  8862  8936 D WM-Processor: c: processing WorkGenerationalId(workSpecId=cea07e61-ab51-4116-a0f0-137e0166ac04, generation=0)
+11-24 14:18:38.156  8862  8936 D WM-Processor: Work WorkGenerationalId(workSpecId=cea07e61-ab51-4116-a0f0-137e0166ac04, generation=0) is already enqueued for processing
+11-24 14:18:38.192  8862  8862 D WM-WorkerWrapper: Starting work for de.mobileconcepts.cyberghost.control.work.PushNotificationSubscriptionExpiringWorker
+11-24 14:18:38.269  8862  8934 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=cea07e61-ab51-4116-a0f0-137e0166ac04, tags={ de.mobileconcepts.cyberghost.control.work.PushNotificationSubscriptionExpiringWorker } ]
+11-24 14:18:38.285  8862  8862 D WM-Processor: c cea07e61-ab51-4116-a0f0-137e0166ac04 executed; reschedule = false
+11-24 14:18:38.286  8862  8862 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=cea07e61-ab51-4116-a0f0-137e0166ac04, generation=0)
+11-24 14:18:38.292  8862  8862 D WM-SystemJobService: cea07e61-ab51-4116-a0f0-137e0166ac04 executed on JobScheduler
+11-24 14:18:38.293  8862  8862 D WM-SystemJobService: onStopJob for WorkGenerationalId(workSpecId=cea07e61-ab51-4116-a0f0-137e0166ac04, generation=0)
+11-24 14:18:38.295  8862  8927 D WM-GreedyScheduler: Cancelling work ID cea07e61-ab51-4116-a0f0-137e0166ac04
+11-24 14:18:38.322  8862  8927 D WM-SystemJobScheduler: Scheduling work ID cea07e61-ab51-4116-a0f0-137e0166ac04Job ID 1188
+11-24 14:18:38.326  8862  8927 D WM-WorkConstraintsTrack: NetworkRequestConstraintController unregister callback
+11-24 14:18:38.430  3492  3502 I system_server: Background concurrent copying GC freed 90568(6MB) AllocSpace objects, 128(2MB) LOS objects, 42% free, 12MB/22MB, paused 221us total 205.768ms
+11-24 14:18:38.451  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(5)
+11-24 14:18:39.089  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(7)
+11-24 14:18:40.288  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:18:41.145  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:18:41.795  3731  3731 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+11-24 14:18:41.812  4129  4452 I katniss_interactor_GoogleAuthClientWrapper: Using GoogleAuthClient for getAccounts for 1p app: com.google.android.katniss [CONTEXT service_id=343 ]
+11-24 14:18:41.820  4129  4449 I katniss_interactor_KatnissAccountManagerImpl: Retrieved 1 Google account from GMS.
+11-24 14:18:41.820  4129  4449 I katniss_interactor_GlobalAccountsAccessor: Writing 1 accounts
+11-24 14:18:41.826  4129  4448 I katniss_interactor_TokenFetcherImpl: #fetchToken
+11-24 14:18:41.833  4129 12420 I katniss_interactor_MigrationUtils: Using GoogleAuthClient for getToken for 1p app: com.google.android.katniss [CONTEXT service_id=343 ]
+11-24 14:18:41.951  4129 12420 I katniss_interactor_MigrationUtils: Using GoogleAuthClient for getToken for 1p app: com.google.android.katniss [CONTEXT service_id=343 ]
+11-24 14:18:42.274  4129  4414 I katniss_interactor_AssistantWrapperImpl: In state[RUNNING] received signal[TOKEN_REFRESHED].
+11-24 14:18:42.274  4129  4414 I assistant: [INFO:hvc_manager_native.cc(408)] Setting Assistant access tokens.
+11-24 14:18:42.278  4129  4830 I katniss_interactor_AssistantWrapperImpl: LibAssistant received Auth Token in sign-in mode.
+11-24 14:18:43.230  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:18:43.262  3731  3731 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.libs.gmscorelogger.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentDirectBootAwareApiService }
+11-24 14:18:45.068  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:18:45.747  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(10)
+11-24 14:18:45.993 27991 28065 I PlayCommon: [1323] Preparing logs for uploading
+11-24 14:18:45.999 27991 28065 I PlayCommon: [1323] Connecting to server: https://play.googleapis.com/play/log?format=raw&proto_v2=true
+11-24 14:18:46.236 27991 28065 I PlayCommon: [1323] Successfully uploaded logs.
+11-24 14:18:46.941  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:18:49.241  3290  3445 I chatty  : uid=1041(audioserver) AudioOut_D identical 4 lines
+11-24 14:18:49.846  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:18:51.228  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(13)
+11-24 14:18:56.053  9474  9485 I um.ottnavigato: Background concurrent copying GC freed 52497(14MB) AllocSpace objects, 0(0B) LOS objects, 50% free, 14MB/28MB, paused 128us total 140.935ms
+11-24 14:18:57.020  3731  3731 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+11-24 14:18:58.285  3731  3731 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.libs.gmscorelogger.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentDirectBootAwareApiService }
+11-24 14:18:59.683  3348  3401 E storaged: getDiskStats failed with result NOT_SUPPORTED and size 0
+11-24 14:19:00.254  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:19:02.137  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(10)
+11-24 14:19:04.438  3492  3502 I system_server: Background concurrent copying GC freed 81380(7MB) AllocSpace objects, 130(2MB) LOS objects, 42% free, 12MB/22MB, paused 237us total 202.523ms
+11-24 14:19:05.884  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:19:16.132  3290  3445 I chatty  : uid=1041(audioserver) AudioOut_D identical 5 lines
+11-24 14:19:17.154  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:19:18.690  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(2)
+11-24 14:19:19.120  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:19:21.250  3290  3445 I chatty  : uid=1041(audioserver) AudioOut_D identical 2 lines
+11-24 14:19:23.809  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:19:24.150  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(5)
+11-24 14:19:24.265  3731 11667 I AlarmManager: setExactAndAllowWhileIdle [name: GCM_HB_ALARM type: 2 triggerAtMillis: 112089733]
+11-24 14:19:24.272  3731 11667 I AlarmManager: setExactAndAllowWhileIdle [name: GCM_HB_ALARM type: 2 triggerAtMillis: 112089740]
+11-24 14:19:24.835  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(9)
+11-24 14:19:25.134  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:19:26.540  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:19:28.932  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(9)
+11-24 14:19:31.438  3492  3502 I system_server: Background concurrent copying GC freed 80474(7MB) AllocSpace objects, 134(2MB) LOS objects, 42% free, 12MB/22MB, paused 198us total 199.954ms
+11-24 14:19:36.101  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:19:38.826  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:19:40.363  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(9)
+11-24 14:19:44.395  9474  9485 I um.ottnavigato: Background concurrent copying GC freed 54482(14MB) AllocSpace objects, 0(0B) LOS objects, 50% free, 14MB/28MB, paused 148us total 168.346ms
+11-24 14:19:46.679  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(3)
+11-24 14:19:47.357  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(8)
+11-24 14:19:50.771  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:19:50.987  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(3)
+11-24 14:19:52.136  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(9)
+11-24 14:19:53.565  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:19:55.550  3290  3445 I chatty  : uid=1041(audioserver) AudioOut_D identical 1 line
+11-24 14:19:57.089  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:19:57.772  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(10)
+11-24 14:19:58.447  3492  3502 I system_server: Background concurrent copying GC freed 78296(6MB) AllocSpace objects, 136(2MB) LOS objects, 42% free, 12MB/22MB, paused 338us total 202.842ms
+11-24 14:19:59.305  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(3)
+11-24 14:19:59.651  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:19:59.764  3348  3401 E storaged: getDiskStats failed with result NOT_SUPPORTED and size 0
+11-24 14:20:00.670  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(2)
+11-24 14:20:03.405  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(10)
+11-24 14:20:03.916  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(9)
+11-24 14:20:10.916  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(9)
+11-24 14:20:13.132  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:20:16.567  3492  3515 I EthernetTracker: interfaceLinkStateChanged, iface: wlan0, up: true
+11-24 14:20:16.572  3492  3746 D WificondControl: Scan result ready event
+11-24 14:20:17.418  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:20:18.083  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:20:18.593  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(8)
+11-24 14:20:18.930  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:20:23.457  3290  3445 I chatty  : uid=1041(audioserver) AudioOut_D identical 2 lines
+11-24 14:20:23.824  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:20:24.462  3492  3502 I system_server: Background concurrent copying GC freed 81639(7MB) AllocSpace objects, 131(2MB) LOS objects, 42% free, 12MB/22MB, paused 265us total 177.258ms
+11-24 14:20:26.204 27837 27882 I Finsky  : [1284] Stats for Executor: BlockingExecutor opb@63fb017[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 115]
+11-24 14:20:26.205 27837 27882 I Finsky  : [1284] Stats for Executor: LightweightExecutor opb@98f2c04[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 544]
+11-24 14:20:26.333 27837 27882 I Finsky  : [1284] Stats for Executor: bgExecutor opb@7725ed[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 1074]
+11-24 14:20:26.506  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(3)
+11-24 14:20:27.808  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(5)
+11-24 14:20:28.828  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:20:30.196  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:20:31.049  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(9)
+11-24 14:20:32.937  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(5)
+11-24 14:20:33.943  9474  9485 I um.ottnavigato: Background concurrent copying GC freed 56472(14MB) AllocSpace objects, 0(0B) LOS objects, 49% free, 14MB/28MB, paused 161us total 162.409ms
+11-24 14:20:34.554 27837 27882 I Finsky  : [1284] Stats for Executor: GrpcBackgroundExecutor opb@2928b0f[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 11]
+11-24 14:20:35.609 27991 28020 I Finsky:background: [1288] Stats for Executor: bgExecutor opb@fbba027[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 235]
+11-24 14:20:35.741 27991 28020 I Finsky:background: [1288] Stats for Executor: LightweightExecutor opb@2d942d4[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 84]
+11-24 14:20:36.032 27991 28020 I Finsky:background: [1288] Stats for Executor: BlockingExecutor opb@cd63c7d[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 26]
+11-24 14:20:37.027  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(9)
+11-24 14:20:39.201  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(1)
+11-24 14:20:39.926  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:20:45.445  3290  3445 I chatty  : uid=1041(audioserver) AudioOut_D identical 1 line
+11-24 14:20:50.590  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:20:51.425  3492  3502 I system_server: Background concurrent copying GC freed 81506(7MB) AllocSpace objects, 131(2MB) LOS objects, 42% free, 12MB/22MB, paused 176us total 172.767ms
+11-24 14:20:55.199  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:20:56.820  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(9)
+11-24 14:20:57.501  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(3)
+11-24 14:20:59.765  3348  3401 E storaged: getDiskStats failed with result NOT_SUPPORTED and size 0
+11-24 14:21:00.404  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(9)
+11-24 14:21:05.526  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:21:06.720  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(9)
+11-24 14:21:07.147  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:21:15.615  3290  3445 I chatty  : uid=1041(audioserver) AudioOut_D identical 2 lines
+11-24 14:21:15.766  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:21:16.616  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(3)
+11-24 14:21:17.817  3492  3502 I system_server: Background concurrent copying GC freed 83477(7MB) AllocSpace objects, 135(2MB) LOS objects, 42% free, 12MB/22MB, paused 358us total 200.731ms
+11-24 14:21:18.091  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:21:22.594  3290  3445 I chatty  : uid=1041(audioserver) AudioOut_D identical 1 line
+11-24 14:21:23.274  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:21:23.623  9474  9485 I um.ottnavigato: Background concurrent copying GC freed 56053(14MB) AllocSpace objects, 0(0B) LOS objects, 49% free, 14MB/28MB, paused 133us total 151.859ms
+11-24 14:21:24.129  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:21:25.152  3290  3445 I chatty  : uid=1041(audioserver) AudioOut_D identical 1 line
+11-24 14:21:25.837  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:21:28.053  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(9)
+11-24 14:21:28.221  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:21:29.589  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(8)
+11-24 14:21:31.807  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:21:38.464  3290  3445 I chatty  : uid=1041(audioserver) AudioOut_D identical 5 lines
+11-24 14:21:39.596  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:21:40.006  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(9)
+11-24 14:21:41.539  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(3)
+11-24 14:21:41.874  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:21:42.050  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:21:42.219  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(3)
+11-24 14:21:43.077  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(9)
+11-24 14:21:43.144  3663  3663 I Thread-2: type=1400 audit(0.0:10812): avc: denied { call } for scontext=u:r:zygote:s0 tcontext=u:r:system_control:s0 tclass=binder permissive=1
+11-24 14:21:44.606  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(3)
+11-24 14:21:44.926  3492  3502 I system_server: Background concurrent copying GC freed 79668(7MB) AllocSpace objects, 135(2MB) LOS objects, 42% free, 12MB/22MB, paused 758us total 191.447ms
+11-24 14:21:47.165  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:21:49.729  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(5)
+11-24 14:21:50.070  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(10)
+11-24 14:21:59.766  3348  3401 E storaged: getDiskStats failed with result NOT_SUPPORTED and size 0
+11-24 14:21:59.800  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(2)
+11-24 14:22:03.170  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:22:05.091  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:22:06.795  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(3)
+11-24 14:22:07.307  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:22:07.646  3290  3445 I chatty  : uid=1041(audioserver) AudioOut_D identical 1 line
+11-24 14:22:10.553  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:22:12.469  3492  3502 I system_server: Background concurrent copying GC freed 82729(6MB) AllocSpace objects, 137(2MB) LOS objects, 42% free, 12MB/22MB, paused 329us total 195.558ms
+11-24 14:22:13.620  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(9)
+11-24 14:22:13.791  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:22:14.147  9474  9485 I um.ottnavigato: Background concurrent copying GC freed 54893(14MB) AllocSpace objects, 0(0B) LOS objects, 49% free, 14MB/28MB, paused 1.027ms total 165.649ms
+11-24 14:22:14.647  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:22:21.641  3290  3445 I chatty  : uid=1041(audioserver) AudioOut_D identical 2 lines
+11-24 14:22:22.156  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:22:22.500  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(3)
+11-24 14:22:23.180  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:22:24.374  3290  3445 I chatty  : uid=1041(audioserver) AudioOut_D identical 2 lines
+11-24 14:22:26.082  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:22:26.787  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(13)
+11-24 14:22:27.789  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:22:30.693  3290  3445 I chatty  : uid=1041(audioserver) AudioOut_D identical 6 lines
+11-24 14:22:31.708  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:22:38.496  3492  3502 I system_server: Background concurrent copying GC freed 79150(7MB) AllocSpace objects, 133(2MB) LOS objects, 42% free, 12MB/22MB, paused 181us total 186.905ms
+11-24 14:22:38.631  4241  4584 I         : [SessionManager] newAccessToken: Bearer BQDJm-IuD7BEzBmTu4aBCjNi3mWbOK_bBeTBMjGrXTFXwgGpwbd9rW2csDpJRVy-NlXs6kDwE_ORpfz4oAkiUohIg1W2L1caa3HwVYlq1-03BmmOMSnebLRSMyXghT0JG0O7ONC1PqvhN6_Knp9nZw8rYArG3n82saIl31_c035gGsl8Z0-OQOloHiWeYKXUNbypRRUS3qSj-5YenXLE0U-dVEjU0eT3CWtAhBvJA9h6EIzozDgRKgqFteIkBxxy28lllQMlYQykPLsjj_HzA3NT1SNsPUMyEZ-Pto2EcXlaxYMni4P3cWt954XCujehM5gX73tZEr_qfGxQigyBzjPDBFYosceawbx17EdtRbxohrSZlxvP2sPgVqRyzEGvxb7_LQe2hVOj0cZ7QUybB7fdNyBB9C5V0UQrhTTAxQ
+11-24 14:22:38.633  4241  4584 I         : [AbstractRecommendationsManager] onAccessToken. f0@8c4ae20
+11-24 14:22:38.633  4241  4584 I         : [AbstractRecommendationsManager] onAccessToken. Have updated Recommendations On Login
+11-24 14:22:38.634  4241  4584 I         : [[ContinueWatching][ContinuationManager] refresh token, update periodic sync, update oneshot
+11-24 14:22:38.637  4241  4584 I         : [ContinueWatching][Publisher] token update: Bearer BQDJm-IuD7BEzBmTu4aBCjNi3mWbOK_bBeTBMjGrXTFXwgGpwbd9rW2csDpJRVy-NlXs6kDwE_ORpfz4oAkiUohIg1W2L1caa3HwVYlq1-03BmmOMSnebLRSMyXghT0JG0O7ONC1PqvhN6_Knp9nZw8rYArG3n82saIl31_c035gGsl8Z0-OQOloHiWeYKXUNbypRRUS3qSj-5YenXLE0U-dVEjU0eT3CWtAhBvJA9h6EIzozDgRKgqFteIkBxxy28lllQMlYQykPLsjj_HzA3NT1SNsPUMyEZ-Pto2EcXlaxYMni4P3cWt954XCujehM5gX73tZEr_qfGxQigyBzjPDBFYosceawbx17EdtRbxohrSZlxvP2sPgVqRyzEGvxb7_LQe2hVOj0cZ7QUybB7fdNyBB9C5V0UQrhTTAxQ
+11-24 14:22:38.638  4241  4584 I         : [ContinueWatching][Publisher] Queue/Update Periodic update
+11-24 14:22:38.638  4241  4584 I         : [ContinueWatching][Publisher] RepeatInterval from remoteConfig: 30
+11-24 14:22:38.640  4241  4584 I         : [ContinueWatching][Publisher] Queue OneTime update
+11-24 14:22:38.640  4241  4584 I         : [ContinueWatching][Publisher] EngageServiceWorker started
+11-24 14:22:38.749  4241 14180 I         : [ContinueWatching][EngageServiceWorker] doWork
+11-24 14:22:38.750  4241  4772 I PlayCore: UID: [10139]  PID: [4241] AppEngageService : Initiate binding to the service.
+11-24 14:22:38.772  4241  4241 I PlayCore: UID: [10139]  PID: [4241] AppEngageService : ServiceConnectionImpl.onServiceConnected(ComponentInfo{com.android.vending/com.google.android.finsky.appcontentservice.engage.AppEngageServiceV2})
+11-24 14:22:38.772  4241  4772 I PlayCore: UID: [10139]  PID: [4241] AppEngageService : linkToDeath
+11-24 14:22:38.773 27991 28222 I Finsky:background: [1337] AppEngageService isServiceAvailable() API is called.
+11-24 14:22:38.781  4241  4772 I PlayCore: UID: [10139]  PID: [4241] AppEngageService : Unbind from service.
+11-24 14:22:38.786  4241  4741 I WM-WorkerWrapper: Worker result FAILURE for Work [ id=12df56e6-7fe4-4ce3-95a0-6464895da12b, tags={ com.spotify.tv.android.continuewatching.publish.EngageServiceWorker } ]
+11-24 14:22:40.930  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:22:47.073  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(9)
+11-24 14:22:50.144  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(9)
+11-24 14:22:50.312  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:22:50.378  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(3)
+11-24 14:22:50.825  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(3)
+11-24 14:22:53.047  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(9)
+11-24 14:22:54.347  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:22:54.815  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(3)
+11-24 14:22:55.618  4129  4886 W native  : W0000 00:00:1795522975.617866    4886 publisher.cc:36] [FTL] No subscribers for event "hvc.api.events.MetricEvent" from publisher "UmaMetricsForwarder"
+11-24 14:22:57.314  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:22:57.824  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:22:58.508  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(9)
+11-24 14:22:59.767  3348  3401 E storaged: getDiskStats failed with result NOT_SUPPORTED and size 0
+11-24 14:22:59.362  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(9)
+11-24 14:22:59.895  3492  3515 I EthernetTracker: interfaceLinkStateChanged, iface: wlan0, up: true
+11-24 14:22:59.899  3492  7552 D WificondControl: Scan result ready event
+11-24 14:23:01.332  3624  3997 E bt_btif : register_notification_rsp: Avrcp device is not connected, handle: 0x0
+11-24 14:23:01.333  3624  3997 I chatty  : uid=1002(bluetooth) BluetoothAvrcpH identical 4 lines
+11-24 14:23:01.333  3624  3997 E bt_btif : register_notification_rsp: Avrcp device is not connected, handle: 0x0
+11-24 14:23:01.324  3492  3492 I Binder:3492_10: type=1400 audit(0.0:10813): avc: denied { transfer } for scontext=u:r:system_server:s0 tcontext=u:r:zygote:s0 tclass=binder permissive=1
+11-24 14:23:01.328  3624  3624 I BluetoothAvrcpH: type=1400 audit(0.0:10814): avc: denied { call } for scontext=u:r:zygote:s0 tcontext=u:r:audioserver:s0 tclass=binder permissive=1
+11-24 14:23:01.547  3280  3280 W gralloc : omx buffer: descriptorInfo->width:1920 descriptorInfo->height:1080
+11-24 14:23:01.864  3280  3280 W gralloc : omx buffer: descriptorInfo->width:1920 descriptorInfo->height:1080
+11-24 14:23:02.065  3624  3997 E bt_btif : register_notification_rsp: Avrcp device is not connected, handle: 0x0
+11-24 14:23:02.067  3624  3997 I chatty  : uid=1002(bluetooth) BluetoothAvrcpH identical 4 lines
+11-24 14:23:02.067  3624  3997 E bt_btif : register_notification_rsp: Avrcp device is not connected, handle: 0x0
+11-24 14:23:02.198  3280  3280 W gralloc : omx buffer: descriptorInfo->width:1920 descriptorInfo->height:1080
+11-24 14:23:02.653  9474  9485 I um.ottnavigato: Background concurrent copying GC freed 54853(14MB) AllocSpace objects, 0(0B) LOS objects, 49% free, 14MB/28MB, paused 166us total 183.907ms
+11-24 14:23:02.942  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(3)
+11-24 14:23:03.116  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:23:03.412  3492  3502 I system_server: Background concurrent copying GC freed 80934(6MB) AllocSpace objects, 120(2MB) LOS objects, 42% free, 12MB/22MB, paused 187us total 184.613ms
+11-24 14:23:10.277  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:23:13.193  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(3)
+11-24 14:23:13.225  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(2)
+11-24 14:23:13.695  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:23:28.888  3290  3445 I chatty  : uid=1041(audioserver) AudioOut_D identical 7 lines
+11-24 14:23:29.231  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:23:30.787  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(16)
+11-24 14:23:31.185  3492  3502 I system_server: Background concurrent copying GC freed 81515(6MB) AllocSpace objects, 140(2MB) LOS objects, 42% free, 13MB/22MB, paused 254us total 187.097ms
+11-24 14:23:31.979  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:23:35.884  3290  3445 I chatty  : uid=1041(audioserver) AudioOut_D identical 2 lines
+11-24 14:23:36.055  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:23:37.933  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(9)
+11-24 14:23:40.492  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(3)
+11-24 14:23:42.710  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:23:44.592  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(9)
+11-24 14:23:45.272  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+--------- beginning of crash
+11-24 14:23:49.013  9474 12688 E AndroidRuntime: FATAL EXCEPTION: Thread-13
+11-24 14:23:49.013  9474 12688 E AndroidRuntime: Process: studio.scillarium.ottnavigator, PID: 9474
+11-24 14:23:49.013  9474 12688 E AndroidRuntime: lo2
+11-24 14:23:49.599  3492  4511 W ActivityManager:   Force finishing activity studio.scillarium.ottnavigator/.PlayerActivity
+11-24 14:23:48.171  3290  3445 I chatty  : uid=1041(audioserver) AudioOut_D identical 2 lines
+11-24 14:23:48.852  3290  3445 D AudioFlinger: mixer(0xad783a80) throttle end: throttle time(4)
+11-24 14:23:49.614  9474 12688 I Process : Sending signal. PID: 9474 SIG: 9
+11-24 14:23:49.720  3492  3569 W InputDispatcher: channel 'b7c02bd studio.scillarium.ottnavigator/studio.scillarium.ottnavigator.PlayerActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+11-24 14:23:49.720  3492  3569 E InputDispatcher: channel 'b7c02bd studio.scillarium.ottnavigator/studio.scillarium.ottnavigator.PlayerActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+11-24 14:23:49.721  3492  3569 W InputDispatcher: channel '21e6152 studio.scillarium.ottnavigator/studio.scillarium.ottnavigator.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+11-24 14:23:49.721  3350  7399 E OMXNodeInstance: !!! Observer died. Quickly, do something, ... anything...
+11-24 14:23:49.721  3492  3569 E InputDispatcher: channel '21e6152 studio.scillarium.ottnavigator/studio.scillarium.ottnavigator.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+11-24 14:23:49.721  3350  9797 I OmxComponent: OMX_CommandStateSet 740 Cmd 0 nParam1 0x2
+11-24 14:23:49.721  3350  9797 I OmxComponent: STATE_SET:   OMX_StateExecuting => OMX_StateIdle : OMX.amlogic.avc.decoder.awesome
+11-24 14:23:49.721  3350  9797 I OmxComponent: OMX.amlogic.avc.decoder.awesome: flush input
+11-24 14:23:49.721  3350  9797 V AmlogicVideoDecoderAwesome: flushInput:980 >
+11-24 14:23:49.721  3350  9797 V OMX_WorkerPeer: hardware/amlogic/omx/omx_framework/WorkerPeer.cpp:flushInput:56 --------------------
+11-24 14:23:49.721  3350  9797 V AmlogicVideoDecoderAwesome: pause:291 >
+11-24 14:23:49.738  3350  9797 V AmlogicVideoDecoderAwesome: reset:337 >
+11-24 14:23:49.738  3350  9797 D AmlogicVideoDecoderAwesome: reset_1
+11-24 14:23:49.738  3350  9797 I amcodec : AMSTREAM_SET_OMX_RUNNING ret=0
+11-24 14:23:49.753  3492  4519 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=468, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&FOREGROUND Unwanted:  Uid: 10171] ], android.os.BinderProxy@3ce6f9c)
+11-24 14:23:49.753  3492  3746 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=467, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10171] ], android.os.BinderProxy@38f3da5)
+11-24 14:23:49.754  3492  4511 I WindowManager: WIN DEATH: Window{b7c02bd u0 studio.scillarium.ottnavigator/studio.scillarium.ottnavigator.PlayerActivity}
+11-24 14:23:49.754  3492  4511 W InputDispatcher: Attempted to unregister already unregistered input channel 'b7c02bd studio.scillarium.ottnavigator/studio.scillarium.ottnavigator.PlayerActivity (server)'
+11-24 14:23:49.754  3624  3997 E bt_btif : register_notification_rsp: Avrcp device is not connected, handle: 0x0
+11-24 14:23:49.755  3492  3583 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=467, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10171] ] (release request)
+11-24 14:23:49.755  3492  4636 I ActivityManager: Process studio.scillarium.ottnavigator (pid 9474) has died: fore TOP 
+11-24 14:23:49.755  3624  3997 I chatty  : uid=1002(bluetooth) BluetoothAvrcpH identical 4 lines
+11-24 14:23:49.755  3624  3997 E bt_btif : register_notification_rsp: Avrcp device is not connected, handle: 0x0
+11-24 14:23:49.756  3492  3511 W libprocessgroup: kill(-9474, 9) failed: No such process
+11-24 14:23:49.756  3492  3511 I libprocessgroup: Successfully killed process cgroup uid 10171 pid 9474 in 1ms
+11-24 14:23:49.756  3264  3264 I Zygote  : Process 9474 exited due to signal (9)
+11-24 14:23:49.759  3492  3552 I WindowManager: WIN DEATH: Window{21e6152 u0 studio.scillarium.ottnavigator/studio.scillarium.ottnavigator.MainActivity}
+11-24 14:23:49.760  3492  3552 W InputDispatcher: Attempted to unregister already unregistered input channel '21e6152 studio.scillarium.ottnavigator/studio.scillarium.ottnavigator.MainActivity (server)'
+11-24 14:23:49.761  3280  3280 I gralloc : ddebug, free share_fd=33, user_hnd=0x3, ion client=31
+11-24 14:23:49.762  3280  3280 W gralloc : Warning shared attribute region mapped at free. Unmapping
+11-24 14:23:49.762  3280  3280 I gralloc : ddebug, free share_fd=47, user_hnd=0x6, ion client=31
+11-24 14:23:49.762  3280  3280 W gralloc : Warning shared attribute region mapped at free. Unmapping
+11-24 14:23:49.762  3280  3280 I gralloc : ddebug, free share_fd=37, user_hnd=0x7, ion client=31
+11-24 14:23:49.762  3280  3280 W gralloc : Warning shared attribute region mapped at free. Unmapping
+11-24 14:23:49.762  3280  3280 I gralloc : ddebug, free share_fd=44, user_hnd=0xa, ion client=31
+11-24 14:23:49.762  3280  3280 W gralloc : Warning shared attribute region mapped at free. Unmapping
+11-24 14:23:49.762  3280  3280 I gralloc : ddebug, free share_fd=51, user_hnd=0xb, ion client=31
+11-24 14:23:49.762  3280  3280 W gralloc : Warning shared attribute region mapped at free. Unmapping
+11-24 14:23:49.762  3280  3280 I gralloc : ddebug, free share_fd=53, user_hnd=0xc, ion client=31
+11-24 14:23:49.762  3280  3280 W gralloc : Warning shared attribute region mapped at free. Unmapping
+11-24 14:23:49.762  3280  3280 I gralloc : ddebug, free share_fd=55, user_hnd=0xd, ion client=31
+11-24 14:23:49.762  3280  3280 W gralloc : Warning shared attribute region mapped at free. Unmapping
+11-24 14:23:49.762  3280  3280 I gralloc : ddebug, free share_fd=61, user_hnd=0xe, ion client=31
+11-24 14:23:49.762  3280  3280 W gralloc : Warning shared attribute region mapped at free. Unmapping
+11-24 14:23:49.762  3292  3292 I gralloc : ddebug, free share_fd=125, user_hnd=0x12, ion client=30
+11-24 14:23:49.762  3292  3292 I gralloc : ddebug, free share_fd=120, user_hnd=0x11, ion client=30
+11-24 14:23:49.763  3292  3292 I gralloc : ddebug, free share_fd=114, user_hnd=0x10, ion client=30
+11-24 14:23:49.763  3292  3292 I gralloc : ddebug, free share_fd=102, user_hnd=0xe, ion client=30
+11-24 14:23:49.763  3292  3292 I gralloc : ddebug, free share_fd=100, user_hnd=0xa, ion client=30
+11-24 14:23:49.763  3292  3292 I gralloc : ddebug, free share_fd=96, user_hnd=0x9, ion client=30
+11-24 14:23:49.763  3292  3292 I gralloc : ddebug, free share_fd=84, user_hnd=0x8, ion client=30
+11-24 14:23:49.764  3292  3292 I gralloc : ddebug, free share_fd=106, user_hnd=0xf, ion client=30
+11-24 14:23:49.768  3280  3280 D MesonHwc: muteVideo to 1
+11-24 14:23:49.778  3292  4022 W SurfaceFlinger: Attempting to set client state on removed layer: studio.scillarium.ottnavigator/studio.scillarium.ottnavigator.PlayerActivity#0
+11-24 14:23:49.778  3292  4022 W SurfaceFlinger: Attempting to destroy on removed layer: studio.scillarium.ottnavigator/studio.scillarium.ottnavigator.PlayerActivity#0
+11-24 14:23:49.779  3280  3280 I gralloc : ddebug, free share_fd=45, user_hnd=0x1, ion client=31
+11-24 14:23:49.779  3280  3280 I gralloc : ddebug, free share_fd=56, user_hnd=0x8, ion client=31
+11-24 14:23:49.779  3280  3280 I gralloc : ddebug, free share_fd=58, user_hnd=0x9, ion client=31
+11-24 14:23:49.780  3292  3292 I gralloc : ddebug, free share_fd=111, user_hnd=0xc, ion client=30
+11-24 14:23:49.780  3292  3292 I gralloc : ddebug, free share_fd=98, user_hnd=0x5, ion client=30
+11-24 14:23:49.783  3280  3280 V MesonHwc: No layers to compose, exit.
+11-24 14:23:49.784  3291  3291 I lmkd    : type=1400 audit(0.0:10815): avc: denied { write } for name="oom_score_adj" dev="proc" ino=2418337 scontext=u:r:lmkd:s0 tcontext=u:r:zygote:s0 tclass=file permissive=1
+11-24 14:23:49.794  3492  3517 W ActivityManager: setHasOverlayUi called on unknown pid: 9474
+11-24 14:23:49.796  3280  3280 V MesonHwc: No layers to compose, exit.
+11-24 14:23:49.792  3264  3264 I main    : type=1400 audit(0.0:10817): avc: denied { getattr } for path="/product/overlay/ATVOverlay.apk" dev="mmcblk0p19" ino=96 scontext=u:r:zygote:s0 tcontext=u:object_r:unlabeled:s0 tclass=file permissive=1
+11-24 14:23:49.804  3492  3508 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+11-24 14:23:49.808 12701 12701 I main    : type=1400 audit(0.0:10818): avc: denied { read } for name="ATVOverlay.apk" dev="mmcblk0p19" ino=96 scontext=u:r:zygote:s0 tcontext=u:object_r:unlabeled:s0 tclass=file permissive=1
+11-24 14:23:49.813  3280  3280 V MesonHwc: No layers to compose, exit.
+11-24 14:23:49.815 12701 12701 I Zygote  : seccomp disabled by setenforce 0
+11-24 14:23:49.819  3492  3510 I ActivityManager: Start proc 12701:studio.scillarium.ottnavigator/u0a171 for activity studio.scillarium.ottnavigator/.MainActivity
+11-24 14:23:49.824 12701 12701 W um.ottnavigato: Using default instruction set features for ARM CPU variant (cortex-a9) using conservative defaults
+11-24 14:23:49.830  3280  3280 V MesonHwc: No layers to compose, exit.
+11-24 14:23:49.830  3279  3279 I gralloc : framebuffer hal alread move to hwcomposer
+11-24 14:23:49.836  3731 12710 I DropBoxUtil: Reading dropbox entry with tag data_app_crash and timestamp 1795523029802 [CONTEXT service_id=254 ]
+11-24 14:23:49.838  3292  3324 I gralloc : ddebug, pair (share_fd=86, user_hnd=5, ion_client=30)
+11-24 14:23:49.841  3492  3554 I gralloc : ddebug, pair (share_fd=248, user_hnd=1, ion_client=249)
+11-24 14:23:49.863  3280  3280 V MesonHwc: No layers to compose, exit.
+11-24 14:23:49.880  3280  3280 V MesonHwc: No layers to compose, exit.
+11-24 14:23:49.899  3280  3280 I gralloc : ddebug, pair (share_fd=28, user_hnd=1, ion_client=31)
+11-24 14:23:49.906  3292  3378 I gralloc : ddebug, free share_fd=108, user_hnd=0xb, ion client=30
+11-24 14:23:49.906 12701 12701 I um.ottnavigato: The ClassLoaderContext is a special shared library.
+11-24 14:23:50.000  3663  4670 D UEventObserver: remove@/devices/platform/vdec/ammvdec_h264.0ÀACTION=removeÀDEVPATH=/devices/platform/vdec/ammvdec_h264.0ÀSUBSYSTEM=platformÀMODALIAS=platform:ammvdec_h264ÀSEQNUM=4991À
+11-24 14:23:49.996 12723 12723 I UEventObserver: type=1400 audit(0.0:10820): avc: denied { execute } for name="logcat" dev="mmcblk0p18" ino=367 scontext=u:r:zygote:s0 tcontext=u:object_r:logcat_exec:s0 tclass=file permissive=1
+11-24 14:23:50.036  3268  3394 I SystemControl: write /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq, val:1908000 end
+11-24 14:23:50.037  3663  4670 D UEventObserver: add@/devices/platform/vdec/ammvdec_h264.0ÀACTION=addÀDEVPATH=/devices/platform/vdec/ammvdec_h264.0ÀSUBSYSTEM=platformÀMODALIAS=platform:ammvdec_h264ÀSEQNUM=4992À
+11-24 14:23:50.055  3350  9797 I amcodec : [codec_reset:1127]ret=0
+11-24 14:23:50.058  3350  9797 D AmlogicVideoDecoderAwesome: reset_2
+11-24 14:23:50.058  3350  9797 D AmlogicVideoDecoderAwesome: mDTaskStatus=1
+11-24 14:23:50.058  3350  9797 V AmlogicVideoDecoderAwesome: start:299 >
+11-24 14:23:50.058  3350  9797 E ThreadWorker: pthread on exit wait clean
+11-24 14:23:50.058  3350  9797 D AmlogicVideoDecoderAwesome: mVideo start
+11-24 14:23:50.058  3350  9797 V AmlogicVideoDecoderAwesome: flushInput:1005 >
+11-24 14:23:50.058  3350  9797 I OmxComponent: OMX.amlogic.avc.decoder.awesome: flush output
+11-24 14:23:50.058  3350  9797 V AmlogicVideoDecoderAwesome: flushOutput:1008 >
+11-24 14:23:50.058  3350  9797 D AmlogicVideoDecoderAwesome: mVideo stop
+11-24 14:23:50.058  3350 12734 V OMX_WorkerPeer: hardware/amlogic/omx/omx_framework/WorkerPeer.cpp:runWorkerStatic:154 --------------------
+11-24 14:23:50.058  3350 12734 V OMX_WorkerPeer: hardware/amlogic/omx/omx_framework/WorkerPeer.cpp:runWorker:160 --------------------
+11-24 14:23:50.059  3350  9797 V AmlogicVideoDecoderAwesome: stop:325 >
+11-24 14:23:50.060  3350  9797 I OmxComponent: STATE_TRANS: OMX_StateExecuting => OMX_StateIdle : OMX.amlogic.avc.decoder.awesome
+11-24 14:23:50.060  3350  9797 I chatty  : uid=1046(mediacodec) decoder.awesome identical 2 lines
+11-24 14:23:50.060  3350  9797 I OmxComponent: STATE_TRANS: OMX_StateExecuting => OMX_StateIdle : OMX.amlogic.avc.decoder.awesome
+11-24 14:23:50.060  3350  9797 I OmxComponent: STATE_DONE:  OMX_StateExecuting => OMX_StateIdle : OMX.amlogic.avc.decoder.awesome
+11-24 14:23:50.064  3492  3577 W system_server: Long monitor contention with owner NetworkStats (3575) at void com.android.server.net.NetworkStatsService.performPoll(int)(NetworkStatsService.java:-1) waiters=0 in void com.android.server.net.NetworkStatsService.setUidForeground(int, boolean) for 271ms
+11-24 14:23:50.093 12701 12737 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-24 14:23:50.106  3492  4522 D ConnectivityService: requestNetwork for uid/pid:10171/12701 NetworkRequest [ TRACK_DEFAULT id=470, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10171] ]
+11-24 14:23:50.107  3492  3619 D Ethernet: got request NetworkRequest [ TRACK_DEFAULT id=470, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10171] ] with score 60
+11-24 14:23:50.107  3492  3619 D EthernetNetworkFactory: acceptRequest, request: NetworkRequest [ TRACK_DEFAULT id=470, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10171] ], score: 60
+11-24 14:23:50.108  3492  3619 I EthernetNetworkFactory: networkForRequest, request: NetworkRequest [ TRACK_DEFAULT id=470, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10171] ], network: NetworkInterfaceState{ iface: eth0, up: false, hwAddress: d0:76:58:06:82:4f, networkInfo: [type: Ethernet[], state: DISCONNECTED/IDLE, reason: (unspecified), extra: (none), failover: false, available: false, roaming: false], networkAgent: null, ipClient: null,linkProperties: {LinkAddresses: []  Routes: [] DnsAddresses: [] UsePrivateDns: false PrivateDnsServerName: null Domains: null MTU: 0}}
+11-24 14:23:50.108  3492  3579 D WIFI_UT : got request NetworkRequest [ TRACK_DEFAULT id=470, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10171] ] with score 60
+11-24 14:23:50.108  3492  3579 D WIFI    : got request NetworkRequest [ TRACK_DEFAULT id=470, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10171] ] with score 60
+11-24 14:23:50.108  3492  3619 I EthernetNetworkFactory: networkForRequest, request: NetworkRequest [ TRACK_DEFAULT id=470, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10171] ], network: NetworkInterfaceState{ iface: eth0, up: false, hwAddress: d0:76:58:06:82:4f, networkInfo: [type: Ethernet[], state: DISCONNECTED/IDLE, reason: (unspecified), extra: (none), failover: false, available: false, roaming: false], networkAgent: null, ipClient: null,linkProperties: {LinkAddresses: []  Routes: [] DnsAddresses: [] UsePrivateDns: false PrivateDnsServerName: null Domains: null MTU: 0}}
+11-24 14:23:50.122  3350  7399 I gralloc : ddebug, free share_fd=34, user_hnd=0x8, ion client=21
+11-24 14:23:50.122  3350  7399 I gralloc : ddebug, free share_fd=32, user_hnd=0x7, ion client=21
+11-24 14:23:50.123  3350  7399 I gralloc : ddebug, free share_fd=30, user_hnd=0x6, ion client=21
+11-24 14:23:50.123  3350  7399 I gralloc : ddebug, free share_fd=28, user_hnd=0x5, ion client=21
+11-24 14:23:50.123  3350  7399 I gralloc : ddebug, free share_fd=26, user_hnd=0x4, ion client=21
+11-24 14:23:50.123  3350  7399 I gralloc : ddebug, free share_fd=24, user_hnd=0x3, ion client=21
+11-24 14:23:50.124  3350  7399 I gralloc : ddebug, free share_fd=22, user_hnd=0x2, ion client=21
+11-24 14:23:50.124  3350  9797 I OmxComponent: OMX_CommandStateSet 740 Cmd 0 nParam1 0x1
+11-24 14:23:50.124  3350  9797 I OmxComponent: STATE_SET:   OMX_StateIdle => OMX_StateLoaded : OMX.amlogic.avc.decoder.awesome
+11-24 14:23:50.124  3350  7399 I gralloc : ddebug, free share_fd=19, user_hnd=0x1, ion client=21
+11-24 14:23:50.124  3350  9797 V AmlogicVideoDecoderAwesome: releaseResources:379 >
+11-24 14:23:50.124  3350  9797 V AmlogicVideoDecoderAwesome: tearDown:873 >
+11-24 14:23:50.124  3350  9797 V AmlogicVideoDecoderAwesome: tearDown:1524 >
+11-24 14:23:50.124  3350  9797 V AmlogicVideoDecoderAwesome: initializeState_l:1602 >
+11-24 14:23:50.155  3663  4670 D UEventObserver: remove@/devices/platform/vdec/ammvdec_h264.0ÀACTION=removeÀDEVPATH=/devices/platform/vdec/ammvdec_h264.0ÀSUBSYSTEM=platformÀMODALIAS=platform:ammvdec_h264ÀSEQNUM=4993À
+11-24 14:23:50.156  3350  9797 V AmlogicVideoDecoderAwesome: disable osd video ...-1373171012
+11-24 14:23:50.157  3350  9797 I OmxComponent: STATE_TRANS: OMX_StateIdle => OMX_StateLoaded : OMX.amlogic.avc.decoder.awesome
+11-24 14:23:50.157  3350  9797 I OmxComponent: STATE_DONE:  OMX_StateIdle => OMX_StateLoaded : OMX.amlogic.avc.decoder.awesome
+11-24 14:23:50.193  3268  3394 I SystemControl: write /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq, val:1908000 end
+11-24 14:23:50.226  3350  7399 D OmxComponentManagerImpl: DecreaseEntryNumByName pEntry->mNum=1, pEntry->mMaxNum:9,componentName:OMX.amlogic.avc.decoder.awesome
+11-24 14:23:50.226  3350  7399 I omx_core: OMX_freeHandle_num_= 0
+11-24 14:23:50.227  3350  7399 D AmlogicVideoDecoderAwesome: ~AmlogicVideoDecoderAwesome
+11-24 14:23:50.227  3350  7399 D AmlogicVideoDecoderAwesome: ~AmlogicVideoDecoder
+11-24 14:23:50.227  3350  7399 D AmlogicVideoDecoderAwesome: set video_inuse 0
+11-24 14:23:50.227  3350  7399 D AmlogicVideoDecoderAwesome: ~AmlogicVideoDecoder, mOmxInstancenum 0
+11-24 14:23:50.402 12701 12714 W System  : A resource failed to call end. 
+11-24 14:23:50.473  3492  3508 W BroadcastQueue: Permission Denial: broadcasting Intent { act=android.media.action.HDMI_AUDIO_PLUG flg=0x40000010 (has extras) } from null (pid=-1, uid=-1) requires studio.scillarium.ottnavigator.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION due to registered receiver BroadcastFilter{b3636cd u0 ReceiverList{d4e7464 12701 studio.scillarium.ottnavigator/10171/u0 remote:5875df7}}
+11-24 14:23:51.035 12701 12701 D OpenGLRenderer: Skia GL Pipeline
+11-24 14:23:51.056 12701 12701 I Choreographer: Skipped 57 frames!  The application may be doing too much work on its main thread.
+11-24 14:23:51.128  3279  3279 I gralloc : framebuffer hal alread move to hwcomposer
+11-24 14:23:51.134  3292  3749 I gralloc : ddebug, pair (share_fd=77, user_hnd=8, ion_client=30)
+11-24 14:23:51.136  3279  3279 I gralloc : framebuffer hal alread move to hwcomposer
+11-24 14:23:51.146  3292  3749 I gralloc : ddebug, pair (share_fd=70, user_hnd=9, ion_client=30)
+11-24 14:23:51.148  3279  3279 I gralloc : framebuffer hal alread move to hwcomposer
+11-24 14:23:51.150 12701 12770 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+11-24 14:23:51.151 12701 12770 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+11-24 14:23:51.151 12701 12770 I OpenGLRenderer: Initialized EGL, version 1.4
+11-24 14:23:51.151 12701 12770 D OpenGLRenderer: Swap behavior 2
+11-24 14:23:51.160  3292  3749 I gralloc : ddebug, pair (share_fd=89, user_hnd=a, ion_client=30)
+11-24 14:23:51.172 12701 12770 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+11-24 14:23:51.230  3292  3749 I gralloc : ddebug, free share_fd=89, user_hnd=0xa, ion client=30
+11-24 14:23:51.230  3279  3279 I gralloc : framebuffer hal alread move to hwcomposer
+11-24 14:23:51.241  3292  3749 I gralloc : ddebug, pair (share_fd=89, user_hnd=a, ion_client=30)
+11-24 14:23:51.258 12701 12770 E gralloc : ioctl c0044901 failed with code -1: Invalid argument
+11-24 14:23:51.260 12701 12770 I gralloc : ddebug, pair (share_fd=75, user_hnd=1, ion_client=77)
+11-24 14:23:51.368  3280  3280 I gralloc : ddebug, pair (share_fd=41, user_hnd=3, ion_client=31)
+11-24 14:23:51.369  3492  3517 I ActivityManager: Displayed studio.scillarium.ottnavigator/.MainActivity: +1s566ms
+11-24 14:23:51.388  3292  3749 I gralloc : ddebug, free share_fd=70, user_hnd=0x9, ion client=30
+11-24 14:23:51.389  3279  3279 I gralloc : framebuffer hal alread move to hwcomposer
+11-24 14:23:51.400  3292  3749 I gralloc : ddebug, pair (share_fd=84, user_hnd=9, ion_client=30)
+11-24 14:23:51.408 12701 12770 I gralloc : ddebug, pair (share_fd=80, user_hnd=2, ion_client=77)
+11-24 14:23:51.404  3288  3288 I wifi@1.0-servic: type=1400 audit(0.0:10829): avc: denied { getattr } for path="/data/vendor/wifi/wid_fp" dev="mmcblk0p20" ino=391787 scontext=u:r:hal_wifi_default:s0 tcontext=u:object_r:vendor_data_file:s0 tclass=file permissive=1
+11-24 14:23:51.434  3280  3280 I gralloc : ddebug, pair (share_fd=50, user_hnd=6, ion_client=31)
+11-24 14:23:51.465  3292  3749 I gralloc : ddebug, free share_fd=77, user_hnd=0x8, ion client=30
+11-24 14:23:51.466  3279  3279 I gralloc : framebuffer hal alread move to hwcomposer
+11-24 14:23:51.478  3292  3749 I gralloc : ddebug, pair (share_fd=98, user_hnd=8, ion_client=30)
+11-24 14:23:51.483 12701 12770 I gralloc : ddebug, pair (share_fd=85, user_hnd=3, ion_client=77)
+11-24 14:23:51.533  3492  3554 I gralloc : ddebug, free share_fd=248, user_hnd=0x1, ion client=249
+11-24 14:23:51.533  3292  3324 W SurfaceFlinger: Attempting to set client state on removed layer: Splash Screen studio.scillarium.ottnavigator#0
+11-24 14:23:51.534  3292  3324 W SurfaceFlinger: Attempting to destroy on removed layer: Splash Screen studio.scillarium.ottnavigator#0
+11-24 14:23:51.535  3280  3280 I gralloc : ddebug, pair (share_fd=52, user_hnd=7, ion_client=31)
+11-24 14:23:51.547  3280  3280 I gralloc : ddebug, free share_fd=28, user_hnd=0x1, ion client=31
+11-24 14:23:51.555  3292  3292 I gralloc : ddebug, free share_fd=86, user_hnd=0x5, ion client=30
+11-24 14:23:51.567  3731  8624 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+11-24 14:23:51.567  3731  8624 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false}, isVf false} [CONTEXT service_id=132 ]
+11-24 14:23:51.571  3731  8624 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false}, isVf false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+11-24 14:23:51.613  3731  8624 I FontLog : Pulling font file for id = 96, cache size = 5 [CONTEXT service_id=132 ]
+11-24 14:23:51.612  3663  3663 I Thread-2: type=1400 audit(0.0:10830): avc: denied { call } for scontext=u:r:zygote:s0 tcontext=u:r:system_control:s0 tclass=binder permissive=1
+11-24 14:23:51.631  3731  8624 I FontLog : Pulling font file for id = 96, cache size = 5 [CONTEXT service_id=132 ]
+11-24 14:23:51.787 12701 12716 I um.ottnavigato: Background concurrent copying GC freed 54169(2MB) AllocSpace objects, 1(20KB) LOS objects, 50% free, 6MB/12MB, paused 556us total 126.189ms
+11-24 14:23:51.913  3279  3279 I gralloc : framebuffer hal alread move to hwcomposer
+11-24 14:23:51.927 12701 12770 I gralloc : ddebug, pair (share_fd=96, user_hnd=4, ion_client=77)
+11-24 14:23:52.152 12808 12808 I cat     : type=1400 audit(0.0:10831): avc: denied { dac_override } for capability=1 scontext=u:r:toolbox:s0 tcontext=u:r:toolbox:s0 tclass=capability permissive=1
+11-24 14:23:52.676 12701 12716 I um.ottnavigato: Background concurrent copying GC freed 125220(5MB) AllocSpace objects, 30(864KB) LOS objects, 49% free, 6MB/13MB, paused 191us total 113.492ms
+11-24 14:23:52.750  3270  3442 D audio_hw_subMixingFactory: out_standby_subMixingPCM: out_stream(0xb12fd000) usecase: STREAM_PCM_NORMAL
+11-24 14:23:52.751  3270  3442 I audio_hw_subMixingFactory: ++usecase_change_validate_l_sm(), dev usecase masks = 0x1, is_standby = 1, out usecase STREAM_PCM_NORMAL
+11-24 14:23:52.751  3270  3442 I audio_hw_subMixingFactory: --usecase_change_validate_l_sm(), dev usecase masks = 0, is_standby = 1, out usecase STREAM_PCM_NORMAL
+11-24 14:23:52.751  3270  3442 I amlaudioMixer: ++delete_mixer_input_port port ID: 0
+11-24 14:23:53.760  3270  3441 I amlaudioMixer: ++mixer_output_standby standby
+11-24 14:23:53.760  3270  3441 I audio_hw_port: output_port_standby()
+11-24 14:23:53.760  3270  3441 I amlaudioMixer: mixer_16b_threadloop() sleep
+11-24 14:23:59.533  3492  3502 I system_server: Background concurrent copying GC freed 90478(6MB) AllocSpace objects, 147(2MB) LOS objects, 42% free, 12MB/22MB, paused 259us total 198.426ms
+11-24 14:23:59.770  3348  3401 E storaged: getDiskStats failed with result NOT_SUPPORTED and size 0
